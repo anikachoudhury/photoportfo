@@ -1,0 +1,45 @@
+.Nav {
+    height: 80vh;
+    top: 0;
+    padding-left: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav_brand {
+    font-size: 28px;
+}
+
+.nav_list {
+    height: 15vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_list>a {
+    transition: all 0.2s ease-in-out;
+}
+
+.nav_list>a:hover {
+    opacity: 0.5;
+}
+
+.nav_media {
+    height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav_media>a>i {
+    transition: all 0.3s ease-in-out;
+}
+
+.nav_media>a>i:hover {
+    opacity: 0.2;
+}
